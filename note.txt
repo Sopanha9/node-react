@@ -1,38 +1,13 @@
-Monday/17/november/2025
+- today we learn about
+1. destructuring -> ES6
+2. class
+3. import & export
+4. asyn & await:
+5. type of console:
+console.log()
+console.error()
+conole.table()
+console...
+6. install express
 
-Full Stack (Node js, React JS)
-
-Backend = API 
-Frontend = React JS
-
-Node: 1 and half of month
-
-basic must know: 
-var
-condition
-loop 
-array:
-    -index array: syntax: let arr = [val1, val2, val3]
-    -array object: syntax: object = {
-        key1: value,
-        key2: value,
-        key3, value3
-    }
-    or
-
-    var arr_obj = [{},{}]
-
-    Json data = is array obj, but we called it json.
-
-function:
-    - how many funcstion in JS?
-    1-return 
-    2-none return
-    Syntax: function func_name(){};
-
-array method:
-join(), 
-string method
-JS ES6 (Important)
-
-
+npm sequlize -> new npm for today!
