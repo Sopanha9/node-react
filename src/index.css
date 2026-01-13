@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.bigTitle {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+  color: #222;
+}
+/* កំណត់ឱ្យ Card បង្ហាញជាជួរដេក */
+.news-card {
+  display: flex; 
+  gap: 20px; /* ចន្លោះរវាងរូបភាព និងអត្ថបទ */
+  padding: 15px 0;
+  border-bottom: 1px solid #efefef; /* បន្ទាត់ខណ្ឌចន្លោះព័ត៌មាននីមួយៗ */
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* កំណត់ទំហំរូបភាពឱ្យថេរ */
+.news-image-container {
+  flex: 0 0 250px; /* រូបភាពមិនឱ្យរួញ ឬរីកហួស ២៥០ភិចសែល */
+}
+
+.news-img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover; /* ការពារកុំឱ្យរូបភាពទាញខូចរាង */
+  border-radius: 4px;
+}
+
+/* ផ្នែកអត្ថបទ */
+.news-content {
+  flex: 1; /* ឱ្យអត្ថបទយកផ្ទៃដែលនៅសល់ទាំងអស់ */
+}
+
+.news-title {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.news-date {
+  font-size: 0.85rem;
+  color: #888; /* ពណ៌ប្រផេះដូចក្នុងរូបភាព */
+  margin-bottom: 10px;
+}
+
+.news-description {
+  font-size: 0.95rem;
+  color: #555;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* បង្ហាញតែ ២ បន្ទាត់ បើវែងពេកវានឹងដាក់ ... */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
